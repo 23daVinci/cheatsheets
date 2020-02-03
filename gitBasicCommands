@@ -1,0 +1,28 @@
+  239  git config --global --unset-all user.name
+  240  git config --global --list
+  241  git config --global --unset-all user.email
+  242  git config --global --list
+  243  git config --global user.name "monali45"
+  244  git init
+  245  git add monali.txt
+  246  touch monali.txt
+  247  gedit monali.txt
+  248  git add monali.txt
+  249  git commit -m "test by monali"
+  250  git config --global user.email "nayakmonali7@gmail.com"
+  251  git config --global user.name "monali45"
+  252  git commit -m "test by monali"
+  253  git remote add origin https://github.com/monali45/DevOpsLab.git
+  254  git push origin master
+  255  git clone monali45@host:https://github.com/monali45/question-paper-generator.git
+  256  mkdir CloningFile
+  258  git clone https://github.com/monali45/question-paper-generator.git CloningFile
+  259  git branch
+  260  git checkout -b devTest
+  261  git branch
+  262  git init
+  263  gedit readme.txt
+  264  git add readme.txt
+  265  git commit -m "first branch commit"
+  266  git push origin devTest
+
